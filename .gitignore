@@ -1,0 +1,26 @@
+# RStudio files
+.Rproj.user/
+
+# R history and workspace files
+.Rhistory
+.RData
+
+# RStudio specific temporary files
+.Ruserdata
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore temporary files from text editors
+*.bak
+*.swp
+
+# Ignore package cache directories
+.Rpackages/
+
