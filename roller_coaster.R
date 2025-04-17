@@ -1,8 +1,8 @@
                                  ### Coasters Analysis ###
 rm(list = ls())
 
-# Load dataset
-coasters <- read.delim("C:\\Users\\Vesi\\Downloads\\coasters-2015.txt", stringsAsFactors = FALSE)
+# Loading dataset
+coasters <- read.delim("coasters-2015.txt", stringsAsFactors = FALSE)
 
 # Clean data: remove missing values and duplicate rows for key variables
 coasters <- coasters[complete.cases(coasters[, c("Speed", "Height", "Length")]), ]

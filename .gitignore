@@ -24,3 +24,8 @@ Thumbs.db
 # Ignore package cache directories
 .Rpackages/
 
+# Ignore RStudio project files
+*.Rproj
+
+# Ignore Windows desktop.ini files
+desktop.ini
